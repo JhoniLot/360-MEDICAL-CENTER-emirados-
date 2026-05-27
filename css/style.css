@@ -203,6 +203,15 @@ img {
     transform: translateY(-3px);
 }
 
+.hero .btn-secondary {
+    color: var(--color-white); /* Texto em branco absoluto no fundo preto do Hero */
+    border-color: var(--color-primary-light);
+}
+
+.hero .btn-secondary:hover {
+    color: var(--color-secondary); /* Texto escuro no hover para destacar sobre o gradiente dourado */
+}
+
 .btn-white {
     background: var(--color-white);
     color: var(--color-secondary);
