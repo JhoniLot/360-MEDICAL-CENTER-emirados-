@@ -278,6 +278,7 @@ img {
     object-fit: contain;
     mix-blend-mode: screen; /* Remove o fundo preto e mescla perfeitamente com qualquer cor do site */
     filter: brightness(1.1) contrast(1.05);
+    clip-path: inset(0 8% 8% 0); /* Corta cirurgicamente as faixas e marca d'água "1/4" do canto inferior direito */
     transition: var(--transition-smooth);
 }
 
