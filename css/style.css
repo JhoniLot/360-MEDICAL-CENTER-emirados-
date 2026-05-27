@@ -223,7 +223,9 @@ img {
     width: 100%;
     z-index: 1000;
     transition: var(--transition-smooth);
-    padding: 1.5rem 0;
+    padding: 1.2rem 0;
+    background: #000000; /* Preto absoluto desde o carregamento inicial da página */
+    border-bottom: 1px solid rgba(197, 168, 128, 0.2);
 }
 
 /*.header.scrolled {
@@ -399,7 +401,7 @@ img {
     left: 0;
     width: 100%;
     height: 100%;
-    background: radial-gradient(circle at 60% 50%, rgba(11, 25, 44, 0.4) 0%, rgba(7, 15, 25, 0.95) 80%);
+    background: radial-gradient(circle at 60% 50%, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.98) 80%); /* Gradiente preto absoluto para eliminar qualquer resquício azul */
     z-index: 2;
 }
 
