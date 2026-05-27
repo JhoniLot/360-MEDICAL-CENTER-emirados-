@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Elevate your health and aesthetic elegance at 360 Medical Center in Sharjah. Managed by globally renowned, board-certified surgeons and dermatologists.">
+    <meta name="keywords" content="360 Medical Center Sharjah, Plastic Surgery Sharjah, Cosmetic Dermatology Sharjah, Laser Treatments Sharjah, Al Muntazah St Clinic">
+    <title>360 Medical & Aesthetic Center - Sharjah</title>
+    
+    <!-- Premium Icons and Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- --- HEADER SECTION --- -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <span class="logo-icon"><i class="fas fa-compass"></i></span>
+                <span class="logo-text">360 MEDICAL</span>
+            </a>
+            
+            <ul class="nav-menu">
+                <li><a href="#hero" class="nav-link" data-i18n="nav-home">Home</a></li>
+                <li><a href="#services" class="nav-link" data-i18n="nav-services">Services</a></li>
+                <li><a href="#why-us" class="nav-link" data-i18n="nav-about">About Us</a></li>
+                <li><a href="#doctors" class="nav-link" data-i18n="nav-doctors">Specialists</a></li>
+                <li><a href="#testimonials" class="nav-link" data-i18n="nav-contact">Contact Us</a></li>
+            </ul>
+            
+            <div class="nav-actions">
+                <button class="lang-switcher" id="langSwitcher">🌐 AR</button>
+                <a href="#" class="btn btn-primary open-booking" data-i18n="cta-book">Book Appointment</a>
+            </div>
+
+            <button class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- --- HERO SECTION --- -->
+    <section id="hero" class="hero">
+        <img src="assets/luxury_clinic.png" alt="Luxury Aesthetic Clinic" class="hero-bg">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-grid">
+                
+                <div class="hero-content reveal">
+                    <span class="hero-badge" data-i18n="hero-badge">★ UAE's Premier Aesthetic Clinic</span>
+                    <h1 class="hero-title" data-i18n="hero-title">Elevating Your <span>Natural Elegance</span> & Well-being</h1>
+                    <p class="hero-description" data-i18n="hero-desc">Experience state-of-the-art medical and aesthetic treatments in Dubai Marina. Curated by globally renowned board-certified dermatologists and plastic surgeons.</p>
+                    
+                    <div class="hero-actions">
+                        <a href="#services" class="btn btn-primary" data-i18n="hero-btn-services">Our Services</a>
+                        <a href="#" class="btn btn-secondary open-booking" data-i18n="hero-btn-tour">Virtual Tour</a>
+                    </div>
+                    
+                    <div class="hero-rating">
+                        <div class="rating-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <span class="rating-text" data-i18n="rating-text">Rated 4.9/5 by 3,000+ Elite Clients across Dubai and Abu Dhabi</span>
+                    </div>
+                </div>
+
+                <!-- Priority Booking Widget -->
+                <div class="hero-booking-card reveal">
+                    <h3 class="booking-card-title" data-i18n="booking-title">Direct VIP Booking</h3>
+                    <form class="booking-form">
+                        <div class="form-group">
+                            <label class="form-label" data-i18n="label-name">Full Name</label>
+                            <input type="text" required class="form-input" placeholder="e.g. Fatima Al-Hashimi" data-i18n-placeholder="label-name">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" data-i18n="label-service">Premium Service</label>
+                            <select class="form-input" required>
+                                <option value="dermatology" data-i18n="option-dermatology">Cosmetic Dermatology</option>
+                                <option value="surgery" data-i18n="option-surgery">Plastic Surgery</option>
+                                <option value="dental" data-i18n="option-dental">Hollywood Smile & Dental</option>
+                                <option value="antiaging" data-i18n="option-antiaging">Longevity & Anti-Aging</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" data-i18n="label-date">Preferred Date</label>
+                            <input type="date" required class="form-input">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" data-i18n="label-time">Preferred Time</label>
+                            <input type="time" required class="form-input">
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-submit" style="margin-top: 1rem;" data-i18n="btn-submit">Schedule Consultation</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- --- SERVICES SECTION --- -->
+    <section id="services" class="services section-padding">
+        <div class="container">
+            <span class="section-subtitle reveal" data-i18n="services-subtitle">Pinnacle of Healthcare & Beauty</span>
+            <h2 class="center-title reveal" data-i18n="services-title">Signature VIP Treatments</h2>
+            <p class="section-desc reveal" data-i18n="services-desc">Unrivalled aesthetic procedures designed to bring out your best self, using world-class FDA-approved medical technology.</p>
+            
+            <div class="services-grid">
+                
+                <!-- Service 1 -->
+                <div class="service-card glass-card reveal">
+                    <div class="service-icon-wrapper">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <h3 class="service-title" data-i18n="srv1-title">Aesthetic Dermatology</h3>
+                    <p class="service-text" data-i18n="srv1-desc">Tailored premium skincare, advanced laser rejuvenation, non-surgical facelifts, and world-class hydration therapies.</p>
+                    <a href="#" class="service-link open-booking">
+                        <span data-i18n="cta-book">Book Appointment</span> <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card glass-card reveal">
+                    <div class="service-icon-wrapper">
+                        <i class="fas fa-stethoscope"></i>
+                    </div>
+                    <h3 class="service-title" data-i18n="srv2-title">Elite Plastic Surgery</h3>
+                    <p class="service-text" data-i18n="srv2-desc">Artistry meets surgical precision. Custom body contouring, breast enhancements, and facial rejuvenation by top surgeons.</p>
+                    <a href="#" class="service-link open-booking">
+                        <span data-i18n="cta-book">Book Appointment</span> <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card glass-card reveal">
+                    <div class="service-icon-wrapper">
+                        <i class="fas fa-tooth"></i>
+                    </div>
+                    <h3 class="service-title" data-i18n="srv3-title">Luxury Dental Aesthetics</h3>
+                    <p class="service-text" data-i18n="srv3-desc">Get the famous Hollywood Smile with premium porcelain veneers, laser teeth whitening, and high-end orthodontics.</p>
+                    <a href="#" class="service-link open-booking">
+                        <span data-i18n="cta-book">Book Appointment</span> <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- --- WHY US SECTION --- -->
+    <section id="why-us" class="why-us section-padding">
+        <div class="container">
+            <div class="why-us-grid">
+                
+                <div class="why-us-image-container reveal">
+                    <!-- Referencing same premium generated assets -->
+                    <img src="assets/luxury_clinic.png" alt="Clinical luxury" class="why-us-img">
+                </div>
+
+                <div class="why-us-content reveal">
+                    <span class="section-subtitle" data-i18n="why-subtitle">Uncompromised Standards</span>
+                    <h2 data-i18n="why-title">Why Global Elites Choose Us</h2>
+                    <p data-i18n="why-desc">We represent the highest quality clinical care, blending Swiss hospitality with cutting-edge German medical technology.</p>
+                    
+                    <div class="why-us-features">
+                        
+                        <div class="why-us-feature">
+                            <span class="feature-num" data-i18n="f1-num">01</span>
+                            <div>
+                                <h4 class="feature-title" data-i18n="f1-title">World-Class Specialists</h4>
+                                <p class="feature-text" data-i18n="f1-desc">Our team consists of internationally trained, board-certified doctors with decades of experience.</p>
+                            </div>
+                        </div>
+
+                        <div class="why-us-feature">
+                            <span class="feature-num" data-i18n="f2-num">02</span>
+                            <div>
+                                <h4 class="feature-title" data-i18n="f2-title">Advanced Laser Technology</h4>
+                                <p class="feature-text" data-i18n="f2-desc">We house the region's most advanced laser technology, ensuring safer, faster, and more effective outcomes.</p>
+                            </div>
+                        </div>
+
+                        <div class="why-us-feature">
+                            <span class="feature-num" data-i18n="f3-num">03</span>
+                            <div>
+                                <h4 class="feature-title" data-i18n="f3-title">Bespoke VIP Experience</h4>
+                                <p class="feature-text" data-i18n="f3-desc">From private entryways to customizable patient lounges, your comfort and confidentiality are paramount.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- --- MEDICAL EXPERTS / DOCTORS SECTION --- -->
+    <section id="doctors" class="doctors section-padding">
+        <div class="container">
+            <span class="section-subtitle reveal" data-i18n="doc-subtitle">Elite Medical Team</span>
+            <h2 class="center-title reveal" data-i18n="doc-title">Meet Our Renowned Board-Certified Experts</h2>
+            <p class="section-desc reveal" data-i18n="services-desc">Unrivalled aesthetic procedures designed to bring out your best self, using world-class FDA-approved medical technology.</p>
+            
+            <div class="doctors-slider reveal">
+                
+                <!-- Doctor 1 -->
+                <div class="doctor-card">
+                    <div class="doctor-image-wrapper">
+                        <!-- Custom styled gold design placeholder to look extremely premium -->
+                        <div style="width:100%;height:100%;background:linear-gradient(135deg, #0B192C 0%, #1E3048 100%);display:flex;align-items:center;justify-content:center;color:#C5A880;font-size:4rem;"><i class="fas fa-user-md"></i></div>
+                    </div>
+                    <div class="doctor-info">
+                        <h4 class="doctor-name" data-i18n="doc1-name">Dr. Sarah Al-Mansoori</h4>
+                        <p class="doctor-specialty" data-i18n="doc1-spec">Lead Cosmetic Surgeon</p>
+                        <p class="doctor-credentials" data-i18n="doc1-cred">MD, PhD - Harvard Medical Graduate</p>
+                    </div>
+                </div>
+
+                <!-- Doctor 2 -->
+                <div class="doctor-card">
+                    <div class="doctor-image-wrapper">
+                        <div style="width:100%;height:100%;background:linear-gradient(135deg, #0B192C 0%, #1E3048 100%);display:flex;align-items:center;justify-content:center;color:#C5A880;font-size:4rem;"><i class="fas fa-user-md"></i></div>
+                    </div>
+                    <div class="doctor-info">
+                        <h4 class="doctor-name" data-i18n="doc2-name">Dr. Alexander Sterling</h4>
+                        <p class="doctor-specialty" data-i18n="doc2-spec">Aesthetic Dermatologist</p>
+                        <p class="doctor-credentials" data-i18n="doc2-cred">Member of the American Board of Dermatology</p>
+                    </div>
+                </div>
+
+                <!-- Doctor 3 -->
+                <div class="doctor-card">
+                    <div class="doctor-image-wrapper">
+                        <div style="width:100%;height:100%;background:linear-gradient(135deg, #0B192C 0%, #1E3048 100%);display:flex;align-items:center;justify-content:center;color:#C5A880;font-size:4rem;"><i class="fas fa-user-md"></i></div>
+                    </div>
+                    <div class="doctor-info">
+                        <h4 class="doctor-name" data-i18n="doc3-name">Dr. Yasmin Farook</h4>
+                        <p class="doctor-specialty" data-i18n="doc3-spec">Implantology & Aesthetic Dentist</p>
+                        <p class="doctor-credentials" data-i18n="doc3-cred">DDS, MSc - Premium Smile Architect</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- --- TESTIMONIALS SECTION --- -->
+    <section id="testimonials" class="testimonials section-padding">
+        <div class="container">
+            <span class="section-subtitle reveal" data-i18n="test-subtitle">Client Testimonials</span>
+            <h2 class="center-title reveal" data-i18n="test-title">Stories of Transformation</h2>
+            
+            <div class="testimonials-container reveal">
+                <div class="testimonial-track">
+                    
+                    <div class="testimonial-slide">
+                        <p class="testimonial-quote" data-i18n="t1-quote">"The absolute best clinical experience in Dubai. From the VIP concierge to the exceptional results of my laser treatment, everything was flawless."</p>
+                        <div class="testimonial-author">
+                            <span class="author-name" data-i18n="t1-author">Fatima Al-Suwaidi</span>
+                            <span class="author-location" data-i18n="t1-loc">Dubai, UAE</span>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-slide">
+                        <p class="testimonial-quote" data-i18n="t2-quote">"Highly professional specialists who value integrity and natural outcomes. The service is incredibly premium, matching Swiss standards."</p>
+                        <div class="testimonial-author">
+                            <span class="author-name" data-i18n="t2-author">Charles de Beaumont</span>
+                            <span class="author-location" data-i18n="t2-loc">Abu Dhabi, UAE</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="testimonial-controls">
+                    <button class="control-btn prev"><i class="fas fa-chevron-left"></i></button>
+                    <button class="control-btn next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --- FOOTER SECTION --- -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                
+                <div class="footer-info">
+                    <a href="#" class="logo">
+                        <span class="logo-icon" style="color: #ffffff;"><i class="fas fa-compass"></i></span>
+                        <span class="logo-text" style="color: #ffffff;">360 MEDICAL</span>
+                    </a>
+                    <p class="footer-about">Redefining health, cosmetic laser, dermatology, and general medical care in Sharjah. Experience gold-standard clinical attention on Al Muntazah St.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <div>
+                    <h4 class="footer-title">Navigation</h4>
+                    <ul class="footer-links">
+                        <li><a href="#hero" class="footer-link" data-i18n="nav-home">Home</a></li>
+                        <li><a href="#services" class="footer-link" data-i18n="nav-services">Services</a></li>
+                        <li><a href="#why-us" class="footer-link" data-i18n="nav-about">About Us</a></li>
+                        <li><a href="#doctors" class="footer-link" data-i18n="nav-doctors">Specialists</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="footer-title">Departments</h4>
+                    <ul class="footer-links">
+                        <li><a href="#" class="footer-link" data-i18n="srv1-title">Aesthetic Dermatology</a></li>
+                        <li><a href="#" class="footer-link" data-i18n="srv2-title">Elite Plastic Surgery</a></li>
+                        <li><a href="#" class="footer-link" data-i18n="srv3-title">Luxury Dental Aesthetics</a></li>
+                        <li><a href="#" class="footer-link" data-i18n="option-antiaging">Longevity & Anti-Aging</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="footer-title">Contact & Location</h4>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-map-marker-alt footer-contact-icon"></i>
+                        <span>Al Muntazah St - Sharqan - Alheera Suburb - Sharjah - UAE</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-phone-alt footer-contact-icon"></i>
+                        <span>+971 6 522 0555</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-clock footer-contact-icon"></i>
+                        <span>Mon-Thu, Sun: 10AM - 8PM | Fri: 12PM - 8PM | Sat: Closed</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 360 Medical Center. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#" class="footer-link">Privacy Policy</a>
+                    <a href="#" class="footer-link">Terms & Conditions</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- --- VIP APPOINTMENT MODAL --- -->
+    <div id="bookingModal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close"><i class="fas fa-times"></i></button>
+            <h3 class="booking-card-title" style="color: var(--color-secondary);" data-i18n="modal-title">Request Premium Consultation</h3>
+            <p style="text-align: center; margin-bottom: 2rem; font-size: 0.9rem;" data-i18n="modal-desc">Fill in the details below and our VIP concierge will contact you within 15 minutes to confirm your appointment.</p>
+            <form class="booking-form">
+                <div class="form-group">
+                    <label class="form-label" data-i18n="label-name">Full Name</label>
+                    <input type="text" required class="form-input" style="color: var(--color-secondary); border-color: var(--color-gray-200);" placeholder="e.g. Fatima Al-Hashimi" data-i18n-placeholder="label-name">
+                </div>
+                <div class="form-group">
+                    <label class="form-label" data-i18n="label-service">Premium Service</label>
+                    <select class="form-input" style="color: var(--color-secondary); border-color: var(--color-gray-200);" required>
+                        <option value="dermatology" data-i18n="option-dermatology">Cosmetic Dermatology</option>
+                        <option value="surgery" data-i18n="option-surgery">Plastic Surgery</option>
+                        <option value="dental" data-i18n="option-dental">Hollywood Smile & Dental</option>
+                        <option value="antiaging" data-i18n="option-antiaging">Longevity & Anti-Aging</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" data-i18n="label-date">Preferred Date</label>
+                    <input type="date" required class="form-input" style="color: var(--color-secondary); border-color: var(--color-gray-200);">
+                </div>
+                <button type="submit" class="btn btn-primary btn-submit" style="margin-top: 1rem;" data-i18n="btn-submit">Schedule Consultation</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
