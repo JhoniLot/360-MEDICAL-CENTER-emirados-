@@ -228,11 +228,11 @@ img {
 
 .header.scrolled {
     padding: 0.9rem 0;
-    background: rgba(253, 251, 247, 0.9);
+    background: rgba(7, 15, 25, 0.95); /* Fundo escuro premium que combina 100% com o logo */
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
-    border-bottom: 1px solid rgba(197, 168, 128, 0.15);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.03);
+    border-bottom: 1px solid rgba(197, 168, 128, 0.25);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
 }
 
 .header-container {
@@ -286,7 +286,7 @@ img {
 .nav-link {
     font-weight: 500;
     font-size: 0.95rem;
-    color: var(--color-secondary);
+    color: var(--color-white); /* Links em branco para contrastar no cabeçalho escuro */
     position: relative;
 }
 
@@ -322,13 +322,14 @@ img {
 
 /* Language and Theme Toggles */
 .lang-switcher, .theme-toggle {
-    background: var(--color-gray-100);
-    border: 1px solid var(--color-gray-200);
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(197, 168, 128, 0.25);
     padding: 0.5rem 0.9rem;
     border-radius: var(--border-radius-full);
     font-weight: 600;
     font-size: 0.85rem;
     cursor: pointer;
+    color: var(--color-white);
     font-family: var(--font-body);
     transition: var(--transition-smooth);
     display: flex;
@@ -341,9 +342,9 @@ img {
 }
 
 .lang-switcher:hover, .theme-toggle:hover {
-    background: var(--color-primary-light);
-    border-color: var(--color-primary);
-    color: var(--color-secondary);
+    background: var(--gold-gradient);
+    border-color: transparent;
+    color: var(--color-white);
 }
 
 .mobile-menu-btn {
@@ -360,7 +361,7 @@ img {
     display: block;
     width: 25px;
     height: 2px;
-    background-color: var(--color-secondary);
+    background-color: var(--color-white); /* Visibilidade perfeita em branco */
     transition: var(--transition-smooth);
 }
 
