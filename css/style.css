@@ -14,8 +14,8 @@
     --color-gray-100: #F4F1EA;
     --color-gray-200: #E6E1D6;
     --color-gray-400: #C2BAAC;
-    --color-gray-600: #8E8474;
-    --color-gray-800: #4E4637;
+    --color-gray-600: #4A433A; /* De cinza opaco para cinza-escuro nítido e legível */
+    --color-gray-800: #1E1B18; /* De marrom-claro para grafite escuro de alta legibilidade */
     
     /* Elegant Accents */
     --color-accent-emerald: #0D3B2E; /* Luxury Emerald Green Option */
@@ -522,6 +522,10 @@ img {
     text-transform: uppercase;
     letter-spacing: 0.05em;
     color: var(--color-primary-light);
+}
+
+.modal .form-label {
+    color: var(--color-secondary); /* Garante que os rótulos do formulário dentro do modal branco sejam totalmente legíveis */
 }
 
 .form-input {
