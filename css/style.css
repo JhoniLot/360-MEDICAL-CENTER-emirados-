@@ -226,13 +226,20 @@ img {
     padding: 1.5rem 0;
 }
 
-.header.scrolled {
+/*.header.scrolled {
     padding: 0.9rem 0;
     background: rgba(7, 15, 25, 0.95); /* Fundo escuro premium que combina 100% com o logo */
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
     border-bottom: 1px solid rgba(197, 168, 128, 0.25);
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+}*/
+
+.header.scrolled {
+    padding: 0.9rem 0;
+    background: #000000; /* Fundo preto absoluto para camuflar 100% a borda do logotipo real */
+    border-bottom: 1px solid rgba(197, 168, 128, 0.3);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 
 .header-container {
@@ -365,26 +372,14 @@ img {
     transition: var(--transition-smooth);
 }
 
-/* --- HERO SECTION --- */
 .hero {
     min-height: 100vh;
     padding-top: 8rem;
     display: flex;
     align-items: center;
     position: relative;
-    background-color: #070f19;
+    background-color: #000000; /* Preto absoluto no fundo do Hero */
     overflow: hidden;
-}
-
-.hero-bg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    opacity: 0.35;
-    z-index: 1;
 }
 
 .hero-bg-fallback {
@@ -393,8 +388,8 @@ img {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(135deg, #070F19 0%, #0B192C 60%, #172A3A 100%);
-    opacity: 0.85;
+    background: #000000; /* Garante que o fundo seja preto absoluto e elimine a diferença de cor do logo */
+    opacity: 1;
     z-index: 1;
 }
 
