@@ -1218,7 +1218,18 @@ img {
     }
     
     .nav-actions {
-        display: none;
+        display: flex;
+        gap: 0.8rem;
+        margin-right: 1rem;
+    }
+    
+    [dir="rtl"] .nav-actions {
+        margin-right: 0;
+        margin-left: 1rem;
+    }
+
+    .header-booking-btn {
+        display: none !important; /* Esconde o botão de agendamento no mobile para não poluir o topo */
     }
     
     .hero-actions {
