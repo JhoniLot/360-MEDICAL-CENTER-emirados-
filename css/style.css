@@ -263,6 +263,19 @@ img {
     color: var(--color-secondary);
 }
 
+.logo-img {
+    height: 65px;
+    width: auto;
+    object-fit: contain;
+    mix-blend-mode: screen; /* Remove o fundo preto e mescla perfeitamente com qualquer cor do site */
+    filter: brightness(1.1) contrast(1.05);
+    transition: var(--transition-smooth);
+}
+
+.logo-img:hover {
+    transform: scale(1.03);
+}
+
 .nav-menu {
     display: flex;
     align-items: center;
