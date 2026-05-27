@@ -1187,11 +1187,12 @@ img {
         width: 80%;
         max-width: 350px;
         height: 100vh;
-        background: var(--color-white);
+        background: #000000; /* Fundo preto no menu mobile para casar 100% com os links brancos! */
+        border-left: 1.5px solid rgba(197, 168, 128, 0.3);
         flex-direction: column;
         justify-content: center;
         gap: 2rem;
-        box-shadow: -10px 0 30px rgba(0, 0, 0, 0.05);
+        box-shadow: -10px 0 40px rgba(0, 0, 0, 0.5);
         transition: var(--transition-smooth);
         z-index: 999;
     }
@@ -1199,7 +1200,9 @@ img {
     [dir="rtl"] .nav-menu {
         right: auto;
         left: -100%;
-        box-shadow: 10px 0 30px rgba(0, 0, 0, 0.05);
+        box-shadow: 10px 0 40px rgba(0, 0, 0, 0.5);
+        border-left: none;
+        border-right: 1.5px solid rgba(197, 168, 128, 0.3);
     }
     
     .nav-menu.active {
